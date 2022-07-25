@@ -1,5 +1,5 @@
 var qhttp = require('q-io/http');
-
+//fetch JSON from http and console.log it
 qhttp.read("http://localhost:1337")
 .then(function (json) {
   console.log(JSON.parse(json));
