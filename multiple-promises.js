@@ -34,8 +34,9 @@ function all(firstPromise, secondPromise) {
     });
 }
 
-/*After you finish writing your all function, pass getPromise1() and
-getPromise2() into your new function and then attach console.log as a
+/*
+pass getPromise1() and
+getPromise2() into the function and then attach console.log as a
 fulfillment handler*/
 all(getPromise1(), getPromise2()).then(console.log);
 
