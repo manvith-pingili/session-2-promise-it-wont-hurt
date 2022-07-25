@@ -1,9 +1,8 @@
 'use strict';
 /*
-Create a function all that accepts two promises as arguments. This all
-function should do all of the following:
+Create a function all that accepts two promises as arguments.
 
-Create an internal promise in whatever way you see fit.
+Create an internal promise
 
 Create a counter variable with initial value of 0.
 
